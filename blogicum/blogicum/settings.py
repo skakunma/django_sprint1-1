@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-*3#c3@zm@b7u44)r=$@x7==6fm7&*&vhfe$c3h!fr$-v@viv=h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 TEMPLATES_DIR = BASE_DIR / 'templates'
 
@@ -102,7 +101,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static_dev',
-] 
+]
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -115,7 +114,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 
 # Static files (CSS, JavaScript, Images)
